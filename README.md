@@ -1,4 +1,4 @@
-### Weather-buddy 🌞
+### Weather-Buddy 🌞
 **🌤️ A Weather notification program with the following features:** <br>
 ⛈️ Displays weather information<br>
 ☂️ Provides suggestions on whether to bring an umbrella or not <br>
