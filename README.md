@@ -45,47 +45,11 @@ Before running the program, you need to establish the required folder structure.
 
 ### Step 2: Image Collection
 
-![quantrong1](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/13d2762d-6175-4602-b4ec-8eace0edd9b3)
-
-1. **Create Folders for Each Label:**
-   - For each label in the list of labels, the program creates a subfolder in the root folder (`IMAGES_PATH`).
-   - The `os.makedirs` function is used to ensure the folder exists or create it if it doesn't already.
-
-2. **Image Collection:**
-   - Open the camera using OpenCV (`cv2.VideoCapture(0)`) to capture images.
-   - For each label, the program displays the image from the camera and saves the image to the corresponding folder.
-   - Each image is saved with a name consisting of the label and a portion of the UUID to ensure uniqueness.
-
-3. **Waiting Time and Exit:**
-   - The program waits for 5 seconds (for preparation) before starting the image collection.
-   - For each image, the program waits for 2 seconds (adjustable) before capturing the next one.
-   - Pressing the 'q' key exits the program.
-### Step 3: Labelling Images for Object Detection:
-Run labelImg.py then assign the name using the box label
-
-### Notes:
-
-- **UUID:** The UUID portion in the image file name is used to ensure each image has a unique name.
-
-- **Waiting Time:** You can adjust the waiting time before capturing each image by modifying the value of `time.sleep(2)`.
-
-Before running the program, make sure that the root folder (e.g., "data") and the subfolders for each label are created.
-<hr>
-
-**How it Works:**
-
-The core functionality relies on sophisticated machine learning models trained on extensive datasets of sign language gestures. These models are then integrated into the program to accurately interpret and translate signed expressions into text or other forms of communication.
-<hr>
-
-
-## Progress Completion: 60%
-
-☑️Cloning Baseline Code 
-☑️Collecting Images using OpenCV( collected 98 pics):
-![pyproanh1](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/2412fd7f-7966-45de-9f67-1f0a09049e09)
-☑️Labelling Images for Object Detection: 
+![quantrong1]Done
 ![pypoanh2](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/a9bbb9ae-0451-48d4-be7a-fe2de8b3a49e)
+
 ❌ Training the Model
+
 ❌ Making Real Time Detections
 
 ## References
