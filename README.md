@@ -3,6 +3,9 @@
 
 Sign Language Detection is an innovative program designed to recognize and interpret sign language gestures using computer vision and machine learning techniques. This application aims to bridge communication gaps for individuals with hearing impairments by providing an automated means of understanding sign language expressions.
 
+AuthorLastName, AuthorFirstInitial.[YouTube video:Sign Language Detection ]([https://www.google.com](https://www.youtube.com/live/V0Pk_dPU2lY?si=AS2qrB97H2yDQN-v))
+
+
 **Key Features:**
 
 1. **Real-time Gesture Recognition:** The program utilizes advanced computer vision algorithms to detect and interpret sign language gestures in real-time, enabling seamless communication.
