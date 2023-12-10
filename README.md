@@ -72,7 +72,7 @@ The provided code executes the following actions:
 ### Step 3: Labelling Images for Object Detection
 Run labelImg.py then assign the name using the box label
 
-## Progress Completion: 40%
+## Progress Completion: 60%
 ☑️ Cloning Baseline Code : Done
 
 ☑️ Collecting Images using OpenCV: Done
