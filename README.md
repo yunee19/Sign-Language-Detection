@@ -1,33 +1,98 @@
-### Sign-Language-Detection 🌞
-**Introduction to Sign Language Detection Program**
+# Sign-Language-Detection 🌞
+## Introduction to Sign Language Detection Program 
 
-Sign Language Detection is an innovative program designed to recognize and interpret sign language gestures using computer vision and machine learning techniques. This application aims to bridge communication gaps for individuals with hearing impairments by providing an automated means of understanding sign language expressions.
+Sign Language Detection is a program designed to analyze and subsequently translate sign language, enabling users to communicate easily with others through expressive gestures and communication. This program brings numerous values and significances in developing practical products for the deaf and hard of hearing. Here are several key points:
 
-AuthorLastName, AuthorFirstInitial.[Sign Language Detection ](https://www.youtube.com/live/V0Pk_dPU2lY?si=AS2qrB97H2yDQN-v)
+1. **Effective Communication:** Sign Language Detection helps users of sign language interact more effectively, reducing communication barriers between them and those unfamiliar with the language.
 
-CODE 
-([Real Time Object Detection Code](https://github.com/nicknochnack/RealTimeObjectDetection)),([Image Collection Code](https://github.com/nicknochnack/RealTimeSignLanguageDetectionwithTFJS/blob/main/Image%20Collection.ipynb))
-CODE ,([LabelImg](https://github.com/HumanSignal/labelImg))
-**Key Features:**
+2. **Development of Useful Products:** This program can be integrated into various applications and devices to create practical products, such as mobile apps, wearable devices, or other assistive tools.
 
-1. **Real-time Gesture Recognition:** The program utilizes advanced computer vision algorithms to detect and interpret sign language gestures in real-time, enabling seamless communication.
+3. **Creating Real-Time Communication Opportunities:** Sign Language Detection can provide real-time communication abilities, allowing the deaf and hard of hearing to confidently participate in conversations and interactions.
 
-2. **User-Friendly Interface:** With an intuitive and user-friendly interface, users can easily interact with the application, making it accessible to a wide range of individuals, including those with varying levels of technical proficiency.
+4. **Education and Learning:** The program can serve as an educational tool to help learners of sign language understand and practice gestures.
 
-3. **Customizable Gesture Database:** The program supports a customizable gesture database, allowing users to add, modify, or expand the set of recognized sign language gestures based on specific needs and requirements.
+5. **Feedback and Flexibility:** Sign Language Detection can provide real-time feedback on the accuracy of gestures, assisting users in improving their skills and enhancing flexibility in interactions.
+
+6. **Emergency Situation Support:** In emergency situations, individuals with hearing impairments can use Sign Language Detection to convey messages quickly and effectively.
+
+7. **Enhancing Diversity and Acceptance:** By supporting communication within the deaf community, this program contributes to enhancing diversity and fostering acceptance in society.
+
+In summary, Sign Language Detection is not just a communication support tool; it is a vital tool for creating practical solutions, contributing to improving the quality of life for the deaf and hard of hearing.
+
+<hr>
+
+**THE DESIRED OUTCOME:**
+<hr>
+
+![IMG](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/35a9190b-883c-4252-881c-dca161a0be4d)
+
+
+<hr>
+
+**TO DO LIST:**
+- Cloning Baseline Code 
+- Collecting Images using OpenCV
+- Labelling Images for Object Detection
+- Training the Model
+- Making Real Time Detections
+
+**THE ACTUAL WORK**
+
+
+### Step 1: Create Necessary Files and Folders
+
+Before running the program, you need to establish the required folder structure. This structure consists of a root folder (e.g., "data") with subfolders for each label.
+
+### Step 2: Image Collection
+
+![quantrong1](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/13d2762d-6175-4602-b4ec-8eace0edd9b3)
+
+1. **Create Folders for Each Label:**
+   - For each label in the list of labels, the program creates a subfolder in the root folder (`IMAGES_PATH`).
+   - The `os.makedirs` function is used to ensure the folder exists or create it if it doesn't already.
+
+2. **Image Collection:**
+   - Open the camera using OpenCV (`cv2.VideoCapture(0)`) to capture images.
+   - For each label, the program displays the image from the camera and saves the image to the corresponding folder.
+   - Each image is saved with a name consisting of the label and a portion of the UUID to ensure uniqueness.
+
+3. **Waiting Time and Exit:**
+   - The program waits for 5 seconds (for preparation) before starting the image collection.
+   - For each image, the program waits for 2 seconds (adjustable) before capturing the next one.
+   - Pressing the 'q' key exits the program.
+### Step 3: Labelling Images for Object Detection:
+Run labelImg.py then assign the name using the box label
+
+### Notes:
+
+- **UUID:** The UUID portion in the image file name is used to ensure each image has a unique name.
+
+- **Waiting Time:** You can adjust the waiting time before capturing each image by modifying the value of `time.sleep(2)`.
+
+Before running the program, make sure that the root folder (e.g., "data") and the subfolders for each label are created.
+<hr>
 
 **How it Works:**
 
 The core functionality relies on sophisticated machine learning models trained on extensive datasets of sign language gestures. These models are then integrated into the program to accurately interpret and translate signed expressions into text or other forms of communication.
+<hr>
 
-**Benefits:**
 
-- **Inclusive Communication:** Sign Language Detection promotes inclusive communication by providing a tool that facilitates understanding between individuals who use sign language and those who may not be familiar with it.
+## Progress Completion: 60%
 
-- **Educational Tool:** It serves as an educational resource for learning and practicing sign language, offering real-time feedback on gesture accuracy.
+☑️Cloning Baseline Code 
+☑️Collecting Images using OpenCV( collected 98 pics):
+![pyproanh1](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/2412fd7f-7966-45de-9f67-1f0a09049e09)
+☑️Labelling Images for Object Detection: 
+![pypoanh2](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/a9bbb9ae-0451-48d4-be7a-fe2de8b3a49e)
+❌ Training the Model
+❌ Making Real Time Detections
 
-- **Assistive Technology:** The program can be employed as assistive technology, aiding individuals with hearing impairments in various aspects of daily life.
+## References
+AUTHOR: Nicholas Renotte 
 
-Sign Language Detection represents a step forward in leveraging technology to enhance communication and foster inclusivity within our diverse communities.
+The video :[Sign Language Detection ](https://www.youtube.com/live/V0Pk_dPU2lY?si=AS2qrB97H2yDQN-v)
 
----
+Original works : 
+[Real Time Object Detection Code](https://github.com/nicknochnack/RealTimeObjectDetection),
+[Image Collection Code](https://github.com/nicknochnack/RealTimeSignLanguageDetectionwithTFJS/blob/main/Image%20Collection.ipynb) ,[LabelImg](https://github.com/HumanSignal/labelImg)
