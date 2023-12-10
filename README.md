@@ -21,7 +21,7 @@ In summary, Sign Language Detection is not just a communication support tool; it
 
 <hr>
 
-**THE DESIRED OUTCOME:**
+## THE DESIRED OUTCOME:
 <hr>
 
 ![IMG](https://github.com/yunee19/Sign-Language-Detection/assets/133479803/35a9190b-883c-4252-881c-dca161a0be4d)
@@ -29,14 +29,14 @@ In summary, Sign Language Detection is not just a communication support tool; it
 
 <hr>
 
-**TO DO LIST:**
+## TO DO LIST:
 - Cloning Baseline Code 
 - Collecting Images using OpenCV
 - Labelling Images for Object Detection
 - Training the Model
 - Making Real Time Detections
 
-**THE ACTUAL WORK**
+## THE ACTUAL WORK:
 
 
 ### Step 1: Create Necessary Files and Folders
