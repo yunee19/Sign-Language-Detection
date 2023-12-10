@@ -6,12 +6,8 @@ Sign Language Detection is an innovative program designed to recognize and inter
 AuthorLastName, AuthorFirstInitial.[Sign Language Detection ](https://www.youtube.com/live/V0Pk_dPU2lY?si=AS2qrB97H2yDQN-v)
 
 CODE 
-([Real Time Object Detection Code](https://github.com/nicknochnack/RealTimeObjectDetection))
-
-([Image Collection Code](https://github.com/nicknochnack/RealTimeSignLanguageDetectionwithTFJS/blob/main/Image%20Collection.ipynb))
-CODE 
-
-([LabelImg](https://github.com/HumanSignal/labelImg))
+([Real Time Object Detection Code](https://github.com/nicknochnack/RealTimeObjectDetection)),([Image Collection Code](https://github.com/nicknochnack/RealTimeSignLanguageDetectionwithTFJS/blob/main/Image%20Collection.ipynb))
+CODE ,([LabelImg](https://github.com/HumanSignal/labelImg))
 **Key Features:**
 
 1. **Real-time Gesture Recognition:** The program utilizes advanced computer vision algorithms to detect and interpret sign language gestures in real-time, enabling seamless communication.
@@ -19,10 +15,6 @@ CODE
 2. **User-Friendly Interface:** With an intuitive and user-friendly interface, users can easily interact with the application, making it accessible to a wide range of individuals, including those with varying levels of technical proficiency.
 
 3. **Customizable Gesture Database:** The program supports a customizable gesture database, allowing users to add, modify, or expand the set of recognized sign language gestures based on specific needs and requirements.
-
-4. **Multi-platform Compatibility:** Sign Language Detection is designed to be compatible with multiple platforms, including desktop computers, laptops, and potentially mobile devices, ensuring flexibility and widespread accessibility.
-
-5. **Integration Possibilities:** The program is built with integration in mind, allowing developers to incorporate sign language recognition functionality into existing applications or systems, fostering inclusivity across various technological domains.
 
 **How it Works:**
 
