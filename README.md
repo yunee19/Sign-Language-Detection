@@ -30,5 +30,3 @@ The core functionality relies on sophisticated machine learning models trained o
 Sign Language Detection represents a step forward in leveraging technology to enhance communication and foster inclusivity within our diverse communities.
 
 ---
-
-Đoạn giới thiệu trên có thể được điều chỉnh và mở rộng tùy thuộc vào tính chất cụ thể của chương trình Sign Language Detection và đối tượng người đọc mục tiêu.
