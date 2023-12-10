@@ -88,6 +88,6 @@ AUTHOR: Nicholas Renotte
 
 The video :[Sign Language Detection ](https://www.youtube.com/live/V0Pk_dPU2lY?si=AS2qrB97H2yDQN-v)
 
-Original works : 
+Original works (click to see all the code) : 
 [Real Time Object Detection Code](https://github.com/nicknochnack/RealTimeObjectDetection),
 [Image Collection Code](https://github.com/nicknochnack/RealTimeSignLanguageDetectionwithTFJS/blob/main/Image%20Collection.ipynb) ,[LabelImg](https://github.com/HumanSignal/labelImg)
